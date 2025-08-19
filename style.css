@@ -151,7 +151,10 @@ section {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 .program-card img { 
-  border-radius: 0; 
+  border-radius: 0;
+  height: 200px; 
+  width: 100%;
+  object-fit: cover;
 }
 .program-card .content {
   padding: 1rem;
